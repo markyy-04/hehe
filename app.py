@@ -21,14 +21,10 @@ st.markdown("""
     background-color: #fff3b0;
 
     background-image:
-        linear-gradient(
-            rgba(255, 253, 231, 0.45),
-            rgba(255, 243, 176, 0.45)
-        ),
         url("https://em-content.zobj.net/source/microsoft-teams/363/sunflower_1f33b.png");
 
-    background-size: 100% 100%, 65px 65px;
-    background-repeat: no-repeat, repeat;
+    background-size: 70px 70px;
+    background-repeat: repeat;
     background-attachment: fixed;
 }
 
