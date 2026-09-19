@@ -409,6 +409,9 @@ elif st.session_state.page == 20:
     """)
     st.balloons()
 
+ if st.button("Next"):
+        next_page()
+
 
 # -----------------------------
 # PAGE 19 - NO
@@ -419,6 +422,9 @@ elif st.session_state.page == 21:
     show_letter("""
     Oh... Okayyy! Thankyouuuu for that answer, i deeply appreciate your efforts just to answer this thingy that I dont even know what to call haha. Uhmmm... Ayon thankyou and wag kalimutan streak, okayy??
     """)
+
+ if st.button("Next"):
+        next_page()
 
 
 elif st.session_state.page == 22:
