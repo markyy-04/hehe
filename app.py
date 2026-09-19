@@ -18,15 +18,17 @@ st.markdown("""
 <style>
 
 .stApp {
-    background:
-        linear-gradient(
-            rgba(255, 253, 231, 0.70),
-            rgba(255, 243, 176, 0.70)
-        ),
-        url("https://images.unsplash.com/photo-1470509037663-253afd7f0f51?auto=format&fit=crop&w=2000&q=80");
+    background-color: #fff3b0;
 
-    background-size: cover;
-    background-position: center;
+    background-image:
+        linear-gradient(
+            rgba(255, 253, 231, 0.45),
+            rgba(255, 243, 176, 0.45)
+        ),
+        url("https://em-content.zobj.net/source/microsoft-teams/363/sunflower_1f33b.png");
+
+    background-size: 100% 100%, 65px 65px;
+    background-repeat: no-repeat, repeat;
     background-attachment: fixed;
 }
 
