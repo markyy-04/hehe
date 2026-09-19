@@ -201,7 +201,7 @@ elif st.session_state.page == 6:
 elif st.session_state.page == 7:
 
     show_letter("""
-    I just wanna be genuine and tell you this. U can say na siguro medjo torpe ako or what for not telling you this in person, but still. Kahit sa gantong way lang, I want you to know that I, Mark Dayrek Dimacali Dipasupil(with haha react kungwari HAHAHA).
+    I just wanna be genuine and tell you this. U can say na siguro medjo torpe ako or what for not telling you this in person, but still. Kahit sa gantong way lang, I want you to know that I, Mark Dayrek Dimacali Dipasupil(with haha react kungwari HAHAHA) wanted you to know that-
     """)
 
     if st.button("Next"):
