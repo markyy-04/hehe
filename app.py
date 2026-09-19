@@ -137,7 +137,7 @@ def show_letter(text):
 
 if st.session_state.page == 1:
 
-    st.title("💛 Somewhere Along The Way 💛")
+    st.title("💛Somewhere Along The Way💛")
 
     show_letter("""
     Heyy its been a few weeks since i first met you. Andaming nangyari haha, and I’m thankful for that. This band really did give me a lot of experiences and memories that really hit me hard. This is not my first time in a band, pero I can say na this is one of the most memorable bands in my life, and you guys helped me realize that.
