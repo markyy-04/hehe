@@ -404,9 +404,13 @@ elif st.session_state.page == 20:
     show_letter("""
     YESSS!!!! THANKYOUUUU!! THIS REALLY MEAN A LOT FOR ME 😭😭
     <br><br>
-    I really appriciate this chance that you're giving me, and I promise i will not waste this opportunity and I assure you that you wont regret your decision.
+    I really appriciate this chance that you're giving me, and I promise I will not waste this opportunity and I assure you that you wont regret your decision.
     Again, Thankyouuuuuu!!
     """)
+
+   if st.button("Next"):
+        next_page()
+
 
     st.balloons()
 
@@ -418,5 +422,18 @@ elif st.session_state.page == 20:
 elif st.session_state.page == 21:
 
     show_letter("""
-    Oh... Okayyy! Thankyouuuu for that answer, i deeply appreciate your efforts just to answer this thingy i dont even know what to call haha. Uhmmm... Ayon thankyou and wag kalimutan streak, okayy?? B-byeee!
+    Oh... Okayyy! Thankyouuuu for that answer, i deeply appreciate your efforts just to answer this thingy that I dont even know what to call haha. Uhmmm... Ayon thankyou and wag kalimutan streak, okayy??
+    """)
+
+    if st.button("Next"):
+        next_page()
+
+elif st.session_state.page == 22:
+  
+    show_letter("""
+    And I guess that’s everything I wanted to say.
+
+    I don’t know where this little website—or this little confession—will take us. But whatever happens after this, I’m just happy that somehow, out of all the people in the world, I got to meet you.
+
+    Thank you for being someone worth making an entire website for. 🌻💛
     """)
