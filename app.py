@@ -5,7 +5,7 @@ import streamlit as st
 # -----------------------------
 
 st.set_page_config(
-    page_title="Somewhere Along The Way💛",
+    page_title="Somewhere Along The Way 💛",
     page_icon="🌻",
     layout="centered"
 )
@@ -45,7 +45,6 @@ st.markdown("""
     border-radius: 25px;
     border: 2px solid #e6c84f;
     box-shadow: 0px 10px 30px rgba(92, 75, 0, 0.20);
-
     text-align: center;
     margin-bottom: 25px;
 }
@@ -64,7 +63,7 @@ h1, h2, h3 {
     color: #8a6500 !important;
 }
 
-/* Normal Streamlit text */
+/* Normal text */
 p, span {
     color: #5c4b00 !important;
 }
@@ -73,18 +72,12 @@ p, span {
 .stButton > button {
     width: 100%;
     border-radius: 20px;
-
     border: 2px solid #d4a017;
-
     padding: 12px;
-
     font-size: 18px;
     font-weight: bold;
-
     background-color: #ffd84d;
-
     color: #5c4b00 !important;
-
     transition: 0.2s;
 }
 
@@ -132,7 +125,7 @@ def show_letter(text):
 
 
 # -----------------------------
-# PAGE 1
+# PAGE 1 - INTRODUCTION
 # -----------------------------
 
 if st.session_state.page == 1:
@@ -140,7 +133,11 @@ if st.session_state.page == 1:
     st.title("💛Somewhere Along The Way💛")
 
     show_letter("""
-    Heyy its been a few weeks since i first met you. Andaming nangyari haha, and I’m thankful for that. This band really did give me a lot of experiences and memories that really hit me hard. This is not my first time in a band, pero I can say na this is one of the most memorable bands in my life, and you guys helped me realize that.
+    I honestly didn’t know how else to say all of this, so somehow, I ended up making an entire website.
+
+    <br><br>
+
+    ’Cause there are just some things that are easier to write than to say out loud. So I guess this is my way of finally saying them.
     """)
 
     if st.button("Next"):
@@ -154,7 +151,7 @@ if st.session_state.page == 1:
 elif st.session_state.page == 2:
 
     show_letter("""
-    Lalo ka na.
+    Heyy its been a few weeks since i first met you. Andaming nangyari haha, and I’m thankful for that. This band really did give me a lot of experiences and memories that really hit me hard. This is not my first time in a band, pero I can say na this is one of the most memorable bands in my life, and you guys helped me realize that.
     """)
 
     if st.button("Next"):
@@ -168,7 +165,7 @@ elif st.session_state.page == 2:
 elif st.session_state.page == 3:
 
     show_letter("""
-    I just wanna be genuine and tell you this. U can say na siguro medjo torpe ako or what for not telling you this in person, but still. Kahit sa gantong way lang, I want you to know that I, Mark Dayrek Dimacali Dipasupil (with haha react kungwari HAHAHA).
+    Lalo ka na.
     """)
 
     if st.button("Next"):
@@ -182,7 +179,7 @@ elif st.session_state.page == 3:
 elif st.session_state.page == 4:
 
     show_letter("""
-    You are one in a billion.
+    I just wanna be genuine and tell you this. U can say na siguro medjo torpe ako or what for not telling you this in person, but still. Kahit sa gantong way lang, I want you to know that I, Mark Dayrek Dimacali Dipasupil(with haha react kungwari HAHAHA).
     """)
 
     if st.button("Next"):
@@ -196,7 +193,7 @@ elif st.session_state.page == 4:
 elif st.session_state.page == 5:
 
     show_letter("""
-    In my world of black and white, you are the only one who can give it colors. And even if there's no such thing as perfect in this world, in my eyes, you are the most perfect girl I've ever seen.
+    You are one in a billion.
     """)
 
     if st.button("Next"):
@@ -210,7 +207,7 @@ elif st.session_state.page == 5:
 elif st.session_state.page == 6:
 
     show_letter("""
-    I like you the way you are. And no flaws could ever change the feeling I have for you.
+    In my world of black and white, you are the only one who can give it colors. And even if there's no such thing as perfect in this world, in my eyes, you are the most perfect girl I've ever seen.
     """)
 
     if st.button("Next"):
@@ -224,7 +221,7 @@ elif st.session_state.page == 6:
 elif st.session_state.page == 7:
 
     show_letter("""
-    You're the risk I'm willing to take, even if there's a possibility that you don't feel the same way I do. But I'd still do it, just for you.
+    I like you the way you are. And no flaws could ever change the feeling I have for you.
     """)
 
     if st.button("Next"):
@@ -238,7 +235,7 @@ elif st.session_state.page == 7:
 elif st.session_state.page == 8:
 
     show_letter("""
-    And just to be direct to the point, I like you.
+    You're the risk I'm willing to take, even if there's a possibility that you don't feel the same way I do. But I'd still do it, just for you.
     """)
 
     if st.button("Next"):
@@ -252,7 +249,7 @@ elif st.session_state.page == 8:
 elif st.session_state.page == 9:
 
     show_letter("""
-    Medjo corny ko man nasimulan pero I just wanted you to know that among all the people I could've met, somehow, I met you. And maybe that's what makes you so special to me.
+    And just to be direct to the point, I like you.
     """)
 
     if st.button("Next"):
@@ -266,7 +263,7 @@ elif st.session_state.page == 9:
 elif st.session_state.page == 10:
 
     show_letter("""
-    Out of billions of people, you're the one I happened to find.
+    Medjo corny ko man nasimulan pero I just wanted you to know that among all the people I could've met, somehow, I met you. And maybe that's what makes you so special to me.
     """)
 
     if st.button("Next"):
@@ -280,7 +277,7 @@ elif st.session_state.page == 10:
 elif st.session_state.page == 11:
 
     show_letter("""
-    I don't know what happens after this. Maybe things will change, maybe they won't. But regardless of what happens, I'm glad I got to meet you. And if liking you means taking a risk, then I guess this is one risk I'm willing to take.
+    Out of billions of people, you're the one I happened to find.
     """)
 
     if st.button("Next"):
@@ -294,7 +291,7 @@ elif st.session_state.page == 11:
 elif st.session_state.page == 12:
 
     show_letter("""
-    Because you're worth it.
+    I don't know what happens after this. Maybe things will change, maybe they won't. But regardless of what happens, I'm glad I got to meet you. And if liking you means taking a risk, then I guess this is one risk I'm willing to take.
     """)
 
     if st.button("Next"):
@@ -308,7 +305,7 @@ elif st.session_state.page == 12:
 elif st.session_state.page == 13:
 
     show_letter("""
-    Every single second with you feels like eternity.
+    Because you're worth it.
     """)
 
     if st.button("Next"):
@@ -322,7 +319,7 @@ elif st.session_state.page == 13:
 elif st.session_state.page == 14:
 
     show_letter("""
-    I never want it to end.
+    Every single second with you feels like eternity.
     """)
 
     if st.button("Next"):
@@ -336,6 +333,20 @@ elif st.session_state.page == 14:
 elif st.session_state.page == 15:
 
     show_letter("""
+    I never want it to end.
+    """)
+
+    if st.button("Next"):
+        next_page()
+
+
+# -----------------------------
+# PAGE 16
+# -----------------------------
+
+elif st.session_state.page == 16:
+
+    show_letter("""
     So im here. And i wanna ask you a genuine question.
     """)
 
@@ -344,27 +355,27 @@ elif st.session_state.page == 15:
 
 
 # -----------------------------
-# PAGE 16 - QUESTION
+# PAGE 17 - QUESTION
 # -----------------------------
 
-elif st.session_state.page == 16:
+elif st.session_state.page == 17:
 
     st.title("Can i court you? 💛")
 
     if st.button("YES 💛"):
-        st.session_state.page = 17
-        st.rerun()
-
-    if st.button("NO"):
         st.session_state.page = 18
         st.rerun()
 
+    if st.button("NO"):
+        st.session_state.page = 19
+        st.rerun()
+
 
 # -----------------------------
-# PAGE 17 - YES
+# PAGE 18 - YES
 # -----------------------------
 
-elif st.session_state.page == 17:
+elif st.session_state.page == 18:
 
     st.title("WAIT REALLY?? 😭💛")
 
@@ -376,10 +387,10 @@ elif st.session_state.page == 17:
 
 
 # -----------------------------
-# PAGE 18 - NO
+# PAGE 19 - NO
 # -----------------------------
 
-elif st.session_state.page == 18:
+elif st.session_state.page == 19:
 
     show_letter("""
     Oh... Okayyy! Thankyouuuu for that answer, i deeply appreciate your efforts just to answer this thingy i dont even know what to call haha. Uhmmm... Ayon thankyou and wag kalimutan streak, okayy?? B-byeee!
