@@ -18,12 +18,14 @@ st.markdown("""
 <style>
 
 .stApp {
-    background-color: #fff3b0;
+    background:
+        linear-gradient(
+            rgba(255, 253, 231, 0.45),
+            rgba(255, 243, 176, 0.45)
+        ),
+        url("sunflower-pattern.png");
 
-    background-image:
-        url("https://em-content.zobj.net/source/microsoft-teams/363/sunflower_1f33b.png");
-
-    background-size: 70px 70px;
+    background-size: 250px 250px;
     background-repeat: repeat;
     background-attachment: fixed;
 }
