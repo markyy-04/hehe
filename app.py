@@ -20,13 +20,13 @@ st.markdown("""
 .stApp {
     background:
         linear-gradient(
-            rgba(255, 253, 231, 0.45),
-            rgba(255, 243, 176, 0.45)
+            rgba(255, 253, 231, 0.88),
+            rgba(255, 243, 176, 0.88)
         ),
-        url("sunflower-pattern.png");
+        url("https://images.unsplash.com/photo-1597848212624-a19eb35e2651?auto=format&fit=crop&w=2000&q=80");
 
-    background-size: 250px 250px;
-    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
     background-attachment: fixed;
 }
 
