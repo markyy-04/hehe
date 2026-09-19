@@ -20,10 +20,10 @@ st.markdown("""
 .stApp {
     background:
         linear-gradient(
-            rgba(255, 253, 231, 0.88),
-            rgba(255, 243, 176, 0.88)
+            rgba(255, 253, 231, 0.70),
+            rgba(255, 243, 176, 0.70)
         ),
-        url("https://images.unsplash.com/photo-1597848212624-a19eb35e2651?auto=format&fit=crop&w=2000&q=80");
+        url("https://images.unsplash.com/photo-1470509037663-253afd7f0f51?auto=format&fit=crop&w=2000&q=80");
 
     background-size: cover;
     background-position: center;
