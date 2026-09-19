@@ -409,8 +409,6 @@ elif st.session_state.page == 20:
     """)
     st.balloons()
 
- if st.button("Next"):
-        next_page()
 
 
 # -----------------------------
