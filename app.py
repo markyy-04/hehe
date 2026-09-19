@@ -404,7 +404,7 @@ elif st.session_state.page == 20:
     show_letter("""
     YESSS!!!! THANKYOUUUU!! THIS REALLY MEAN A LOT FOR ME 😭😭
     <br><br>
-    I really appriciate this chance that you're giving me, and I promise it will not go to waste.
+    I really appriciate this chance that you're giving me, and I promise i will not waste this opportunity and I assure you that you wont regret your decision.
     Again, Thankyouuuuuu!!
     """)
 
