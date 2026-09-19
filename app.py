@@ -143,12 +143,19 @@ if st.session_state.page == 1:
     if st.button("Next"):
         next_page()
 
+if st.session_state.page == 2:
 
+    show_letter("""
+    ’Cause there are just some things that are easier to write than to say out loud. So I guess this is my way of finally saying them.
+    """)
+
+    if st.button("Next"):
+        next_page()
 # -----------------------------
 # PAGE 2
 # -----------------------------
 
-elif st.session_state.page == 2:
+elif st.session_state.page == 3:
 
     show_letter("""
     Heyy its been a few weeks since i first met you. Andaming nangyari haha, and I’m thankful for that. This band really did give me a lot of experiences and memories that really hit me hard. This is not my first time in a band, pero I can say na this is one of the most memorable bands in my life, and you guys helped me realize that.
@@ -162,7 +169,7 @@ elif st.session_state.page == 2:
 # PAGE 3
 # -----------------------------
 
-elif st.session_state.page == 3:
+elif st.session_state.page == 4:
 
     show_letter("""
     Lalo ka na.
@@ -176,7 +183,7 @@ elif st.session_state.page == 3:
 # PAGE 4
 # -----------------------------
 
-elif st.session_state.page == 4:
+elif st.session_state.page == 5:
 
     show_letter("""
     I just wanna be genuine and tell you this. U can say na siguro medjo torpe ako or what for not telling you this in person, but still. Kahit sa gantong way lang, I want you to know that I, Mark Dayrek Dimacali Dipasupil(with haha react kungwari HAHAHA).
@@ -190,7 +197,7 @@ elif st.session_state.page == 4:
 # PAGE 5
 # -----------------------------
 
-elif st.session_state.page == 5:
+elif st.session_state.page == 6:
 
     show_letter("""
     You are one in a billion.
@@ -204,7 +211,7 @@ elif st.session_state.page == 5:
 # PAGE 6
 # -----------------------------
 
-elif st.session_state.page == 6:
+elif st.session_state.page == 7:
 
     show_letter("""
     In my world of black and white, you are the only one who can give it colors. And even if there's no such thing as perfect in this world, in my eyes, you are the most perfect girl I've ever seen.
@@ -218,7 +225,7 @@ elif st.session_state.page == 6:
 # PAGE 7
 # -----------------------------
 
-elif st.session_state.page == 7:
+elif st.session_state.page == 8:
 
     show_letter("""
     I like you the way you are. And no flaws could ever change the feeling I have for you.
@@ -232,7 +239,7 @@ elif st.session_state.page == 7:
 # PAGE 8
 # -----------------------------
 
-elif st.session_state.page == 8:
+elif st.session_state.page == 9:
 
     show_letter("""
     You're the risk I'm willing to take, even if there's a possibility that you don't feel the same way I do. But I'd still do it, just for you.
@@ -246,7 +253,7 @@ elif st.session_state.page == 8:
 # PAGE 9
 # -----------------------------
 
-elif st.session_state.page == 9:
+elif st.session_state.page == 10:
 
     show_letter("""
     And just to be direct to the point, I like you.
@@ -260,7 +267,7 @@ elif st.session_state.page == 9:
 # PAGE 10
 # -----------------------------
 
-elif st.session_state.page == 10:
+elif st.session_state.page == 11:
 
     show_letter("""
     Medjo corny ko man nasimulan pero I just wanted you to know that among all the people I could've met, somehow, I met you. And maybe that's what makes you so special to me.
@@ -274,7 +281,7 @@ elif st.session_state.page == 10:
 # PAGE 11
 # -----------------------------
 
-elif st.session_state.page == 11:
+elif st.session_state.page == 12:
 
     show_letter("""
     Out of billions of people, you're the one I happened to find.
@@ -288,7 +295,7 @@ elif st.session_state.page == 11:
 # PAGE 12
 # -----------------------------
 
-elif st.session_state.page == 12:
+elif st.session_state.page == 13:
 
     show_letter("""
     I don't know what happens after this. Maybe things will change, maybe they won't. But regardless of what happens, I'm glad I got to meet you. And if liking you means taking a risk, then I guess this is one risk I'm willing to take.
@@ -302,7 +309,7 @@ elif st.session_state.page == 12:
 # PAGE 13
 # -----------------------------
 
-elif st.session_state.page == 13:
+elif st.session_state.page == 14:
 
     show_letter("""
     Because you're worth it.
@@ -316,7 +323,7 @@ elif st.session_state.page == 13:
 # PAGE 14
 # -----------------------------
 
-elif st.session_state.page == 14:
+elif st.session_state.page == 15:
 
     show_letter("""
     Every single second with you feels like eternity.
@@ -330,7 +337,7 @@ elif st.session_state.page == 14:
 # PAGE 15
 # -----------------------------
 
-elif st.session_state.page == 15:
+elif st.session_state.page == 16:
 
     show_letter("""
     I never want it to end.
@@ -344,7 +351,7 @@ elif st.session_state.page == 15:
 # PAGE 16
 # -----------------------------
 
-elif st.session_state.page == 16:
+elif st.session_state.page == 17:
 
     show_letter("""
     So im here. And i wanna ask you a genuine question.
@@ -358,16 +365,16 @@ elif st.session_state.page == 16:
 # PAGE 17 - QUESTION
 # -----------------------------
 
-elif st.session_state.page == 17:
+elif st.session_state.page == 18:
 
     st.title("Can i court you? 💛")
 
     if st.button("YES 💛"):
-        st.session_state.page = 18
+        st.session_state.page = 19
         st.rerun()
 
     if st.button("NO"):
-        st.session_state.page = 19
+        st.session_state.page = 29
         st.rerun()
 
 
@@ -375,7 +382,7 @@ elif st.session_state.page == 17:
 # PAGE 18 - YES
 # -----------------------------
 
-elif st.session_state.page == 18:
+elif st.session_state.page == 19:
 
     st.title("WAIT REALLY?? 😭💛")
 
@@ -390,7 +397,7 @@ elif st.session_state.page == 18:
 # PAGE 19 - NO
 # -----------------------------
 
-elif st.session_state.page == 19:
+elif st.session_state.page == 20:
 
     show_letter("""
     Oh... Okayyy! Thankyouuuu for that answer, i deeply appreciate your efforts just to answer this thingy i dont even know what to call haha. Uhmmm... Ayon thankyou and wag kalimutan streak, okayy?? B-byeee!
