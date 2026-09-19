@@ -133,10 +133,16 @@ if st.session_state.page == 1:
     st.title("💛Somewhere Along The Way💛")
 
     show_letter("""
-    Uhmmm..... Hi? HAHAHAHAAH """)
+    Uhmmm..... Hi? HAHAHAHAAH
+    """)
 
     if st.button("Next"):
         next_page()
+
+
+# -----------------------------
+# PAGE 2
+# -----------------------------
 
 elif st.session_state.page == 2:
 
@@ -146,7 +152,12 @@ elif st.session_state.page == 2:
 
     if st.button("Next"):
         next_page()
-        
+
+
+# -----------------------------
+# PAGE 3
+# -----------------------------
+
 elif st.session_state.page == 3:
 
     show_letter("""
@@ -155,6 +166,11 @@ elif st.session_state.page == 3:
 
     if st.button("Next"):
         next_page()
+
+
+# -----------------------------
+# PAGE 4
+# -----------------------------
 
 elif st.session_state.page == 4:
 
@@ -167,7 +183,7 @@ elif st.session_state.page == 4:
 
 
 # -----------------------------
-# PAGE 2
+# PAGE 5
 # -----------------------------
 
 elif st.session_state.page == 5:
@@ -181,7 +197,7 @@ elif st.session_state.page == 5:
 
 
 # -----------------------------
-# PAGE 3
+# PAGE 6
 # -----------------------------
 
 elif st.session_state.page == 6:
@@ -195,7 +211,7 @@ elif st.session_state.page == 6:
 
 
 # -----------------------------
-# PAGE 4
+# PAGE 7
 # -----------------------------
 
 elif st.session_state.page == 7:
@@ -209,7 +225,7 @@ elif st.session_state.page == 7:
 
 
 # -----------------------------
-# PAGE 5
+# PAGE 8
 # -----------------------------
 
 elif st.session_state.page == 8:
@@ -223,7 +239,7 @@ elif st.session_state.page == 8:
 
 
 # -----------------------------
-# PAGE 6
+# PAGE 9
 # -----------------------------
 
 elif st.session_state.page == 9:
@@ -237,10 +253,10 @@ elif st.session_state.page == 9:
 
 
 # -----------------------------
-# PAGE 7
+# PAGE 10
 # -----------------------------
 
-elif st.session_state.page == 9:
+elif st.session_state.page == 10:
 
     show_letter("""
     I like you the way you are. And no flaws could ever change the feeling I have for you.
@@ -251,10 +267,10 @@ elif st.session_state.page == 9:
 
 
 # -----------------------------
-# PAGE 8
+# PAGE 11
 # -----------------------------
 
-elif st.session_state.page == 10:
+elif st.session_state.page == 11:
 
     show_letter("""
     You're the risk I'm willing to take, even if there's a possibility that you don't feel the same way I do. But I'd still do it, just for you.
@@ -265,10 +281,10 @@ elif st.session_state.page == 10:
 
 
 # -----------------------------
-# PAGE 9
+# PAGE 12
 # -----------------------------
 
-elif st.session_state.page == 11:
+elif st.session_state.page == 12:
 
     show_letter("""
     And just to be direct to the point, I like you.
@@ -279,10 +295,10 @@ elif st.session_state.page == 11:
 
 
 # -----------------------------
-# PAGE 10
+# PAGE 13
 # -----------------------------
 
-elif st.session_state.page == 12:
+elif st.session_state.page == 13:
 
     show_letter("""
     Medjo corny ko man nasimulan pero I just wanted you to know that among all the people I could've met, somehow, I met you. And maybe that's what makes you so special to me.
@@ -293,10 +309,10 @@ elif st.session_state.page == 12:
 
 
 # -----------------------------
-# PAGE 11
+# PAGE 14
 # -----------------------------
 
-elif st.session_state.page == 13:
+elif st.session_state.page == 14:
 
     show_letter("""
     Out of billions of people, you're the one I happened to find.
@@ -307,10 +323,10 @@ elif st.session_state.page == 13:
 
 
 # -----------------------------
-# PAGE 12
+# PAGE 15
 # -----------------------------
 
-elif st.session_state.page == 14:
+elif st.session_state.page == 15:
 
     show_letter("""
     I don't know what happens after this. Maybe things will change, maybe they won't. But regardless of what happens, I'm glad I got to meet you. And if liking you means taking a risk, then I guess this is one risk I'm willing to take.
@@ -321,10 +337,10 @@ elif st.session_state.page == 14:
 
 
 # -----------------------------
-# PAGE 13
+# PAGE 16
 # -----------------------------
 
-elif st.session_state.page == 15:
+elif st.session_state.page == 16:
 
     show_letter("""
     Because you're worth it.
@@ -335,10 +351,10 @@ elif st.session_state.page == 15:
 
 
 # -----------------------------
-# PAGE 14
+# PAGE 17
 # -----------------------------
 
-elif st.session_state.page == 16:
+elif st.session_state.page == 17:
 
     show_letter("""
     Every single second with you feels like eternity.
@@ -349,10 +365,10 @@ elif st.session_state.page == 16:
 
 
 # -----------------------------
-# PAGE 15
+# PAGE 18
 # -----------------------------
 
-elif st.session_state.page == 17:
+elif st.session_state.page == 18:
 
     show_letter("""
     I never want it to end.
@@ -363,10 +379,10 @@ elif st.session_state.page == 17:
 
 
 # -----------------------------
-# PAGE 16
+# PAGE 19
 # -----------------------------
 
-elif st.session_state.page == 18:
+elif st.session_state.page == 19:
 
     show_letter("""
     So im here. And i wanna ask you a genuine question.
@@ -377,60 +393,77 @@ elif st.session_state.page == 18:
 
 
 # -----------------------------
-# PAGE 17 - QUESTION
+# PAGE 20 - QUESTION
 # -----------------------------
 
-elif st.session_state.page == 19:
+elif st.session_state.page == 20:
 
     st.title("Can i court you? 💛")
 
     if st.button("YES 💛"):
-        st.session_state.page = 20
-        st.rerun()
-
-    if st.button("NO"):
         st.session_state.page = 21
         st.rerun()
 
+    if st.button("NO"):
+        st.session_state.page = 22
+        st.rerun()
+
 
 # -----------------------------
-# PAGE 18 - YES
+# PAGE 21 - YES
 # -----------------------------
 
-elif st.session_state.page == 20:
+elif st.session_state.page == 21:
 
     st.title("WAIT REALLY?? 😭💛")
 
     show_letter("""
     YESSS!!!! THANKYOUUUU!! THIS REALLY MEAN A LOT FOR ME 😭😭
+
     <br><br>
+
     I really appriciate this chance that you're giving me, and I promise I will not waste this opportunity and I assure you that you wont regret your decision.
+
+    <br><br>
+
     Again, Thankyouuuuuu!!
     """)
+
     st.balloons()
 
+    if st.button("Next"):
+        st.session_state.page = 23
+        st.rerun()
 
 
 # -----------------------------
-# PAGE 19 - NO
+# PAGE 22 - NO
 # -----------------------------
 
-elif st.session_state.page == 21:
+elif st.session_state.page == 22:
 
     show_letter("""
     Oh... Okayyy! Thankyouuuu for that answer, i deeply appreciate your efforts just to answer this thingy that I dont even know what to call haha. Uhmmm... Ayon thankyou and wag kalimutan streak, okayy??
     """)
 
- if st.button("Next"):
+    if st.button("Next"):
         next_page()
 
 
-elif st.session_state.page == 22:
-  
+# -----------------------------
+# PAGE 23 - ENDING
+# -----------------------------
+
+elif st.session_state.page == 23:
+
     show_letter("""
     And I guess that’s everything I wanted to say.
 
+    <br><br>
+
     I don’t know where this little website—or this little confession—will take us. But whatever happens after this, I’m just happy that somehow, out of all the people in the world, I got to meet you.
+
+    <br><br>
 
     Thank you for being someone worth making an entire website for. 🌻💛
     """)
