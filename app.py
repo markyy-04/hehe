@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="A Little Something 💛",
-    page_icon="💛",
+    page_icon="🌻",
     layout="centered"
 )
 
@@ -10,25 +10,29 @@ st.markdown("""
 <style>
 
 .stApp {
-    background: linear-gradient(135deg, #fffde7, #fff3b0);
-}
-
-/* All normal text */
-p, span, div {
-    color: #5c4b00;
-}
-
-/* Title */
-h1, h2, h3 {
-    text-align: center;
-    color: #8a6500 !important;
+    background:
+        linear-gradient(rgba(255, 253, 231, 0.90), rgba(255, 243, 176, 0.90)),
+        url("https://images.unsplash.com/photo-1597848212624-a19eb35e2651?auto=format&fit=crop&w=2000&q=80");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 /* Main text */
+p, span {
+    color: #5c4b00 !important;
+}
+
 p {
     font-size: 20px;
     line-height: 1.8;
     text-align: center;
+}
+
+/* Titles */
+h1, h2, h3 {
+    text-align: center;
+    color: #8a6500 !important;
 }
 
 /* Buttons */
