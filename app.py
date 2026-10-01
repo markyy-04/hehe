@@ -398,7 +398,7 @@ elif st.session_state.page == 19:
 
 elif st.session_state.page == 20:
 
-    st.title("Can i court you? 💛")
+    st.title("I really really like you, and im wondering if I have a chance? 💛")
 
     if st.button("YES 💛"):
         st.session_state.page = 21
