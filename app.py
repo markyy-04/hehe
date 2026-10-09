@@ -404,9 +404,12 @@ elif st.session_state.page == 20:
         st.session_state.page = 21
         st.rerun()
 
-    if st.button("NO"):
+    if st.button("Maybe?"):
         st.session_state.page = 22
         st.rerun()
+    if st.button("NO"):
+        st.session_state.page = 23
+        st.rerun()  
 
 
 # -----------------------------
