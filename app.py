@@ -432,7 +432,25 @@ elif st.session_state.page == 21:
     st.balloons()
 
     if st.button("Next"):
-        st.session_state.page = 23
+        st.session_state.page = 24
+        st.rerun()
+
+elif st.session_state.page == 22:
+
+    st.title("WAIT REALLY?? 😭💛")
+
+    show_letter("""
+    YESSS!!!! THANKYOUUUU!! THIS REALLY MEAN A LOT FOR ME 😭😭
+
+    <br><br>
+
+    Again, Thankyouuuuuu!!
+    """)
+
+    st.balloons()
+
+    if st.button("Next"):
+        st.session_state.page = 24
         st.rerun()
 
 
@@ -440,7 +458,7 @@ elif st.session_state.page == 21:
 # PAGE 22 - NO
 # -----------------------------
 
-elif st.session_state.page == 22:
+elif st.session_state.page == 23:
 
     show_letter("""
     Oh... Okayyy! Thankyouuuu for that answer, i deeply appreciate your efforts just to answer this thingy that I dont even know what to call haha. Uhmmm... Ayon thankyou and wag kalimutan streak, okayy??
@@ -454,7 +472,7 @@ elif st.session_state.page == 22:
 # PAGE 23 - ENDING
 # -----------------------------
 
-elif st.session_state.page == 23:
+elif st.session_state.page == 24:
 
     show_letter("""
     And I guess that’s everything I wanted to say.
